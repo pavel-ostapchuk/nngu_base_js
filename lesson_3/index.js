@@ -213,3 +213,5 @@ console.log(undefined + null);
 console.log(1 === "1");
 console.log("2" > 10);
 console.log(NaN == undefined);
+
+console.log(undefined === undefined);
