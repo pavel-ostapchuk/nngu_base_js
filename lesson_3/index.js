@@ -126,13 +126,13 @@
 
 // console.log(myString.split(""));
 
-// ---------------------------------------------------------------- HOMEWORK + повторение ---------------------------------------------------------------- //
+// -------------------------- HOMEWORK + повторение -------------------------- //
 
 // Почему нельзя использовать var?
 // Разница let/const?
 // Можно ли менять поля в объекте, который объявлен через const? Как это сделать?
 
-// Number
+//  Number
 console.log(1, typeof 1);
 console.log(5 - "2", typeof (5 - "2"));
 console.log(5 - "123abc", typeof (5 - "123abc"));
@@ -147,13 +147,13 @@ console.log(
 
 console.log("\n");
 
-//String
+// String
 console.log("Строка", typeof "Строка");
 console.log("2" + 3, typeof ("2" + 3));
 
 console.log("\n");
 
-//Boolean
+// Boolean
 console.log(true, typeof true);
 console.log(!0, typeof !0);
 console.log(!!2, typeof !!2);
@@ -192,26 +192,24 @@ console.log(newUser);
 
 // Сравнение типов
 
-console.log("кот" > "код");
-console.log("2" + 2 * "2");
-console.log(undefined == null);
-console.log(undefined != null);
-console.log(null == 0);
-console.log(2 > "3");
-console.log(null - false + true);
-console.log(1 / "l");
-console.log("2" * "3");
-console.log(4 + 5 + "O");
-console.log("l" + 4 + 5);
-console.log("4" - 2);
-console.log("4" - "4x");
-console.log("23" == 23);
-console.log(null == false);
-console.log(" -4 " / 0 + 1);
-console.log(null + 1);
-console.log(undefined + null);
-console.log(1 === "1");
-console.log("2" > 10);
-console.log(NaN == undefined);
-
-console.log(undefined === undefined);
+console.log("1)", "кот" > "код"); // true
+console.log("2)", "2" + 2 * "2"); // 24
+console.log("3)", undefined == null); // true
+console.log("4)", undefined != null); // false
+console.log("5)", null == 0); // false
+console.log("6)", 2 > "3"); // false
+console.log("7)", null - false + true); //1
+console.log("8)", 1 / "l"); // NaN
+console.log("9)", "2" * "3"); // 6
+console.log("10)", 4 + 5 + "O"); //90
+console.log("11)", "l" + 4 + 5); // l45
+console.log("12)", "4" - 2); //2
+console.log("13)", "4" - "4x"); //NaN
+console.log("14)", "23" == 23); // true
+console.log("15)", null == false); //false
+console.log("16)", " -4 " / 0 + 1); //-infinity
+console.log("17)", null + 1); // 1
+console.log("18)", undefined + null); // NaN
+console.log("19)", 1 === "1"); // false
+console.log("20)", "2" > 10); // false
+console.log("21)", NaN == undefined); // false
