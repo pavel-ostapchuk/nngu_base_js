@@ -57,22 +57,21 @@
 // остальные годы, номер которых кратен 100, — НЕвисокосные (например, годы 1700, 1800, 1900, 2100, 2200, 2300);
 // остальные годы, номер которых кратен 4, — високосные[5].
 
-const startYear = 1800;
-const endYear = 2020;
+// const startYear = 1800;
+// const endYear = 2020;
 
-let leapYearsAmount = 0;
+// let leapYearsAmount = 0;
 
-const firstSapceTripYear = 1961;
+// const firstSapceTripYear = 1961;
 
-for (let i = startYear; i <= endYear; i++) {
-  if (i === firstSapceTripYear) {
-    console.log(
-      `${firstSapceTripYear} - год, когда человек первый раз полетел в космос`
-    );
-    console.log(`Количество итераций - ${i - startYear}`);
-    return;
-  }
-}
+// for (let i = startYear; i <= endYear; i++) {
+//   if (i === firstSapceTripYear) {
+//     console.log(
+//       `${firstSapceTripYear} - год, когда человек первый раз полетел в космос`
+//     );
+//     console.log(`Количество итераций - ${i - startYear}`);
+//   }
+// }
 
 // for (let i = startYear; i <= endYear; i++) {
 //   if (i % 400 === 0 || (i % 100 !== 0 && i % 4 === 0)) {
