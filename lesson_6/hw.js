@@ -121,3 +121,33 @@
 //   }
 //   return true;
 // };
+
+// 1
+// const myFunc = (min, max) => {
+//   return Math.random().toFixed(1) * (max - min) + min;
+// };
+
+// console.log(myFunc(2, 4));
+
+// 2
+// const isCharBig = (str, element) => {
+//   if (!str[element]) {
+//     return "ошибка";
+//   }
+//   console.log(str[element]);
+
+//   if (str[element] === str[element].toUpperCase()) {
+//     return true;
+//   }
+//   return true;
+// };
+
+// console.log(isCharBig("aweerwr", 2));
+
+// const myConst = "aweo awo ea eak eq find oaw k awkea eoke find";
+
+// const replaceFunc = (str) => {
+//   return str.replaceAll("find", "hi");
+// };
+
+// console.log(replaceFunc(myConst));
